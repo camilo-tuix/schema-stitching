@@ -1,0 +1,20 @@
+{
+  "name": "subgraph-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch index.js --exec 'node index.js' -e js,graphql "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.5.11",
+    "@graphql-tools/load": "^7.8.6",
+    "@graphql-tools/stitch": "^8.7.26",
+    "@graphql-yoga/node": "^2.5.0",
+    "cross-undici-fetch": "^0.4.14",
+    "graphql-tools": "^8.2.8",
+    "nodemon": "^2.0.13"
+  }
+}

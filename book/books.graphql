@@ -1,0 +1,15 @@
+type Query {
+  "The list of all available books"
+  books: [Book!]!
+
+  "The details of a specific book"
+  book(isbn: String!): Book
+}
+
+type Book {
+  isbn: String!
+  title: String!
+  authorFirstName: String!
+  authorLastName: String!
+  description: String!
+}
